@@ -1,10 +1,10 @@
 # vscode-settings
 ## Windows
 ```
-cd %homepath%\AppData\Roaming\Code\User
+cd %AppData%\Code\User
 rename settings.json settings.json.bk
-mklink settings.json %homepath%\git\vscode-settings\settings.json
+mklink settings.json %HOMEPATH%\git\vscode-settings\settings.json
 
 rename keybindings.json keybindings.json.bk
-mklink keybindings.json %homepath%\git\vscode-settings\keybindings.json
+mklink keybindings.json %HOMEPATH%\git\vscode-settings\keybindings.json
 ```
